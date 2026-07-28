@@ -212,3 +212,8 @@ print(name[:4])
 name = "Python"
 print(name[2:])
 
+'''
+If both start and end are omitted,
+the whole string is returned.
+'''
+

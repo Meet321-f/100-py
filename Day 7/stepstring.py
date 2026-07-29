@@ -120,6 +120,7 @@ print(text[::2])  # Output: "Pormig"
 print(text[::-1])  # Output: "gnimmargorP"
 print(text[3:9:2]) 
 print(text[-5:])
+print(text[-3::-2])  # Output: "gmrP"
 
 text = "Ahmedabad"
 reverse = text[::-1]
@@ -130,3 +131,19 @@ reverse = ""
 for ch in text :
     reverse = ch + reverse
 print(reverse)    
+
+# Write a function that reverses a string. The input string is given as an array of characters s.
+# Leetcode Problem
+
+class Solution:
+    s = ["m" , "e" , "e" , "t"]
+    def reversestring(self , s : list[str]) -> None:
+     
+     left = 0
+     right = len(s) -1
+
+     while left < right :
+        s[left] , s[right] = s[right] , s[left]
+
+        left += 1
+        right -= 1

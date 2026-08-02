@@ -139,3 +139,5 @@ print(new_arr)
 arr = [10,20,30]
 arr.clear()
 print(arr)
+
+

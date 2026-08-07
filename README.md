@@ -7,7 +7,6 @@ Welcome to my 100 Days of Python, where i'm trying to do my best to master this 
 ### ✅ Concepts of Python
 
 Variables
-
 Data Types
 Input/Output
 Type Casting
@@ -19,17 +18,18 @@ Function: Definition and Calling a Function
 Default and Keyword Arguments and Return Statement
 Local and Global variables, args and kwargs
 Lists, Tuples, Sets, Dictionaries in Python
-
 String and String Manipulation
-
 Practice Programs on Functions
+
 ### ✅ File Handling
 Read and Write a File
 Modes of File
 CSV File and Exception Handling
 ### ✅ Object Oriented Programming in Python
+
 Class and Objects, Constructors, Self keyword, Class variables.
 Practice Programs on Class and Objects: Student Marks Calculation.
+
 ## 💻 Practice
 
 Practice programs and logic building programs

@@ -1,61 +1,41 @@
 # 🐍 100 Days of Python
 
-Welcome to my **100 Days of Python** challenge! This repository documents my daily progress as I learn Python from the basics to advanced concepts through theory, practice, and coding exercises.
+Welcome to my 100 Days of Python, where i'm trying to do my best to master this beautiful language called Python, from the basic level all the way to advanced level by theory and practice.
 
 ## 📚 Topics Covered
 
-### ✅ Python Fundamentals
+### ✅ Concepts of Python
 
-* Variables and Data Types
-* Input & Output
-* Type Casting
-* Arithmetic, Comparison & Logical Operators
-* Conditional Statements (`if`, `elif`, `else`)
-* Loops (`for`, `while`)
-* Pattern Printing
+Variables
 
-### ✅ Functions
+Data Types
+Input/Output
+Type Casting
+Arithmetic, Comparison and Logical Operators
+If, Elif and Else (Decision Making)
+Loops: While and For loops
+Pattern Printing
+Function: Definition and Calling a Function
+Default and Keyword Arguments and Return Statement
+Local and Global variables, args and kwargs
+Lists, Tuples, Sets, Dictionaries in Python
 
-* Function Definition & Calling
-* Parameters & Arguments
-* Return Statements
-* Default & Keyword Arguments
-* Local & Global Variables
-* `*args` and `**kwargs`
+String and String Manipulation
 
-### ✅ Data Structures
-
-* Lists and List Methods
-* Tuples
-* Sets
-* Dictionaries
-* Strings and String Methods
-
+Practice Programs on Functions
 ### ✅ File Handling
-
-* Reading & Writing Files
-* File Modes
-* CSV File Handling
-* Exception Handling
-
-### ✅ Object-Oriented Programming (OOP)
-
-* Classes & Objects
-* Constructors (`__init__`)
-* `self` Keyword
-* Instance Attributes
-* Methods
-* Practice Programs (e.g., Student Average Marks Calculator)
-
+Read and Write a File
+Modes of File
+CSV File and Exception Handling
+### ✅ Object Oriented Programming in Python
+Class and Objects, Constructors, Self keyword, Class variables.
+Practice Programs on Class and Objects: Student Marks Calculation.
 ## 💻 Practice
 
-* Daily coding exercises
-* Logic-building programs
-* LeetCode problem solving
-* Hands-on Python practice
-
-## 🎯 Goal
-
-My goal is to complete **100 Days of Python** consistently, strengthen my problem-solving skills, build real-world projects, and create a strong foundation for Data Structures & Algorithms (DSA), Artificial Intelligence (AI), and Software Development.
-
-⭐ Every day, I upload my progress, practice programs, and learning notes to this repository.
+Practice programs and logic building programs
+Solving Problems on Leetcode
+Learning and practice Python daily
+## 🎯 My Goal
+I desire to make a total of 100 days of python, in which i will be practicing daily to improve my coding skills and problem-solving ability.
+Also this will help me develop my skills in Data Structures and Algorithms (DSA), Artificial Intelligence (AI) and Software Development.
+⭐ I'm making sure to upload my daily practice programs into this repo.

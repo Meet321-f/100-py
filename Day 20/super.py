@@ -34,3 +34,21 @@ class Person:
 p1 = Person()
 p1.changename("chandu chempian")
 print(p1.name)
+
+# property method :
+class Student:
+    def __init__(self ,  C , Java , Python):
+        self.C = C
+        self.Java = Java
+        self.Python = Python
+
+    @property
+    def percentage(self):
+        return str((self.C + self.Java + self.Python) / 3) + "%"
+
+
+std1 = Student(90,81,87)
+print(std1.percentage)  
+
+std1.C = 95
+print(std1.percentage)  

@@ -40,3 +40,16 @@ sol = Solution()
 x = [1, 3, 2, 5]
 print(sol.findMissingAndRepeatedValues(x))
 print("Thank You.")
+
+# leetcode problem length of last word
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        # s = "hello world"
+        words = s.split()
+
+        last_word = words[-1]
+        return len(last_word)
+    
+s = input("Enter Your Name : ")
+result = Solution().lengthOfLastWord(s)
+print(result)

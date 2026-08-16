@@ -11,7 +11,7 @@ for i in range(subjects):
     subject_name = input(f"Enter Your Subject { i +1} Name : ")
     marks = float(input(f"Enter {subject_name} Marks : "))
 
-    marks_list.append((marks))
+    marks_list.append(marks)
     print(f"{subject_name} : {marks}")
 
 total = sum(marks_list)
@@ -34,3 +34,8 @@ else:
     grade = "F"
 
 print(f"Grade : {grade}")
+
+if pr >+ 40:
+    print("Result : Pass")
+else:
+    print("Result : Fail")

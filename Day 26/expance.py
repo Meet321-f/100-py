@@ -30,6 +30,15 @@ for expense in expenses:
 
 remaining = budget - total_expense
 
+print("\n========== EXPENSES ==========")
+
+for expense in expenses:
+    print(
+        f"{expense['name']} | "
+        f"{expense['category']} | "
+        f"₹{expense['amount']}"
+    )
+
 print("============summary============")
 print(f"Name : {name}")
 print(f"Budget : ₹{budget}")

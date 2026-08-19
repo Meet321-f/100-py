@@ -1,4 +1,4 @@
-# two pointer 
+# # two pointer 
 
 s = "Hello World"
 s_list = list(s)
@@ -37,3 +37,19 @@ sol = Solution()
 nums = [2, 7 , 10, 15]
 target = 9
 print(sol.twosum(nums, target))
+
+
+
+
+class Solution:
+    def largestInteger(self , nums: list[int] , k: int) -> list[int]:
+
+        if k == len(nums):
+            return [max(nums)]
+
+        if k == 1:
+            arr = [x for x in nums if nums.count(x) ==1]
+        else:
+            arr = [x for x in (nums[0] , num[-1] if nums.count(x) == 1]
+
+        return max(arr) if arr else -1

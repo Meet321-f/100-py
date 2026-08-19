@@ -1,7 +1,7 @@
 # Problem Statement: Ek string s di hogi. Aapko bina kisi repeating character ke sabse lambi substring ki length batani hai.
 
 class Solution:
-    def lengthOfLongestString(self , s:str) -> int:
+    def lengthOfLongestSubstring(self , s:str) -> int:
         char_set = set()
         left = 0
         max_length = 0
@@ -18,4 +18,5 @@ class Solution:
         
 sol = Solution()
 s = "stringstringssss"
-print(sol.lengthOfLongestString(s))
+print(sol.lengthOfLongestSubstring(s))
+

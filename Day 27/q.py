@@ -42,14 +42,19 @@ print(sol.twosum(nums, target))
 
 
 class Solution:
-    def largestInteger(self , nums: list[int] , k: int) -> list[int]:
+    def largestInteger(self, nums: list[int], k: int) -> list[int]:
+        if not nums:
+            return []
 
         if k == len(nums):
             return [max(nums)]
 
-        if k == 1:
-            arr = [x for x in nums if nums.count(x) ==1]
-        else:
-            arr = [x for x in (nums[0] , num[-1] if nums.count(x) == 1]
+        arr = [x for x in nums if nums.count(x) == 1]
 
-        return max(arr) if arr else -1
+        if k == 1:
+            return max(arr) if arr else -1
+
+        if k > len(arr):
+            return max(arr) if arr else -1
+
+        return max(arr[:k]) if arr[:k] else -1
